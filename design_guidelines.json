@@ -1,0 +1,104 @@
+{
+  "theme": "light",
+  "archetype": "1 (Organic & Earthy)",
+  "typography": {
+    "heading_font": "Cabinet Grotesk",
+    "body_font": "Manrope",
+    "font_imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');",
+      "@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,200,300,400,500,700,800,900&display=swap');"
+    ],
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none font-medium",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight leading-tight font-medium",
+      "h3": "text-xl sm:text-2xl tracking-tight font-medium",
+      "body": "text-base leading-relaxed text-slate-700",
+      "label": "text-xs tracking-[0.2em] uppercase font-bold text-slate-500"
+    }
+  },
+  "colors": {
+    "background": "#FDFBF7",
+    "foreground": "#1A1D1A",
+    "primary": "#B25638",
+    "primary_foreground": "#FFFFFF",
+    "secondary": "#E5DCD0",
+    "secondary_foreground": "#2A2726",
+    "accent": "#98A88E",
+    "accent_foreground": "#FFFFFF",
+    "muted": "#F3F0E9",
+    "muted_foreground": "#7A7670",
+    "border": "#E5DCD0",
+    "destructive": "#993333",
+    "ring": "#B25638"
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous Spacing Philosophy. Use 2-3x more spacing than typical designs. Focus on organic asymmetry and breathing room.",
+    "container": "max-w-7xl mx-auto px-6 sm:px-8 lg:px-12",
+    "grid": {
+      "marketing": "grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8 lg:gap-12",
+      "dashboard": "grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6"
+    }
+  },
+  "components": {
+    "button": {
+      "primary": "bg-[#B25638] text-white hover:bg-[#8F442C] transition-colors rounded-full px-6 py-3 font-medium shadow-sm hover:shadow",
+      "secondary": "bg-[#E5DCD0] text-[#1A1D1A] hover:bg-[#D5C9B8] transition-colors rounded-full px-6 py-3 font-medium",
+      "outline": "border border-[#E5DCD0] text-[#1A1D1A] hover:bg-[#F3F0E9] transition-colors rounded-full px-6 py-3 font-medium"
+    },
+    "card": {
+      "default": "bg-white/50 backdrop-blur-sm border border-[#E5DCD0] rounded-2xl p-8 hover:-translate-y-1 transition-transform duration-300",
+      "pricing": "bg-white border border-[#E5DCD0] rounded-3xl p-10 hover:border-[#B25638]/50 transition-colors duration-300 relative overflow-hidden"
+    },
+    "chat_bubble": {
+      "user": "bg-[#F3F0E9] text-[#1A1D1A] rounded-2xl rounded-tr-sm px-6 py-4 max-w-[80%] shadow-sm",
+      "ai": "bg-white text-[#1A1D1A] border border-[#E5DCD0] rounded-2xl rounded-tl-sm px-6 py-4 max-w-[85%] shadow-sm"
+    },
+    "header": "sticky top-0 z-50 backdrop-blur-xl bg-[#FDFBF7]/70 border-b border-[#E5DCD0]/50"
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1760888102496-8ed280c9fc62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwYWJzdHJhY3QlMjBzaGFwZXMlMjB3YXJtfGVufDB8fHx8MTc3NDg4NTI4OXww&ixlib=rb-4.1.0&q=85",
+      "description": "Abstract shapes with warm lighting and reflections, used for hero section background or image generation empty states."
+    },
+    "feature_lens": {
+      "url": "https://images.unsplash.com/photo-1765277114329-b3da8e70731e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwcG90dGVyeXxlbnwwfHx8fDE3NzQ4ODUyODB8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Minimalist pottery vases, use as a placeholder for Google Lens / photo search feature demonstration."
+    },
+    "deep_research": {
+      "url": "https://images.pexels.com/photos/5567001/pexels-photo-5567001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Artisanal pottery on wooden shelf, used as visual metaphor for deep research and organized memory."
+    },
+    "texture_overlay": {
+      "url": "https://images.pexels.com/photos/13551573/pexels-photo-13551573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Dynamic abstract digital art with earthy shades, useful for pricing cards background or premium pro plan highlighting."
+    },
+    "nature_minimal": {
+      "url": "https://images.pexels.com/photos/4694962/pexels-photo-4694962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Expansive sand dunes with tiny figures, used as an atmospheric background for the sign-up page or empty chat state."
+    }
+  },
+  "motion_and_interactions": {
+    "hover_states": "All buttons must lift slightly (-translate-y-0.5) and change background color. Use smooth transitions (duration-300).",
+    "page_transitions": "Fade in content with a slight upward translation.",
+    "chat_animations": "New messages should slide up and fade in.",
+    "focus_states": "Focus states must be highly visible. e.g. focus:ring-2 focus:ring-[#B25638] focus:ring-offset-2"
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "Use thin, minimalist strokes (strokeWidth={1.5})."
+  },
+  "instructions_to_main_agent": [
+    "Build a SaaS layout with authentication (Google Sign-In), marketing landing page, pricing page, and the core dashboard (Ankit GPT 2.0).",
+    "Implement navigation linking to the key features: Chat, Image Gen, Deep Research, Lens, Settings.",
+    "Use Shadcn components for forms, dropdowns, and dialogs, but style them WITHOUT standard 'tech' borders. Use the defined warm muted colors and rounded-2xl border-radii.",
+    "For the main chat interface, ensure it looks clean and conversational with 'chat_bubble' styles from components config. Add a prominent microphone icon button for the Voice Search mode.",
+    "In the Chat interface, provide an attachment/camera button for 'Photo search mode' (Google Lens style).",
+    "Implement 'Deep Research' as a toggle or separate tab in the chat that adds a more focused, document-heavy layout view.",
+    "In the Pricing/Plans section, show three tiers: Free, Go (₹200/month), Pro (₹400/month). Highlight the Pro plan using the `texture_overlay` image as a subtle background or border highlight.",
+    "Ensure all buttons, interactive elements, and forms have `data-testid` attributes (e.g., `data-testid='chat-submit-button'`, `data-testid='google-signin-button'`).",
+    "Avoid using teal, purple, or pure black. Stick strictly to the warm earthy color palette (#FDFBF7, #1A1D1A, #B25638, etc.).",
+    "Do not use generic fonts like Inter, Roboto, or Open Sans. Use Cabinet Grotesk for headings and Manrope for body text.",
+    "Add tailwind configuration to match the colors and typography accurately in the global css or tailwind.config.js.",
+    "Implement responsive design starting mobile-first. Make sure the chat interface works smoothly on mobile screens with bottom-anchored inputs."
+  ]
+}
